@@ -29,4 +29,4 @@ function fetchCatByBreed(breedId) {
     });
 }
 
-export { fetchBreeds, fetchCatByBreed };
+// export { fetchBreeds, fetchCatByBreed };
