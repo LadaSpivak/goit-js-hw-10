@@ -20,7 +20,7 @@ p {
 .cat-image {
   display: block;
   width: auto;
-  height: 400px;
+  height: 600px;
   object-fit: cover;
   
 }
