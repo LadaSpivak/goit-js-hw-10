@@ -130,3 +130,14 @@ function onSelectBreed(breed) {
     })
     .catch(error => onError(error));
 }
+
+// Функція, яка виконається після завантаження сторінки
+window.addEventListener('load', function() {
+  // Знайдіть лоадер та контент
+  const loader = document.getElementById('loader');
+  const content = document.getElementById('content');
+
+  // Сховати лоадер та показати контент
+  loader.style.display = 'none';
+  content.style.display = 'block';
+});

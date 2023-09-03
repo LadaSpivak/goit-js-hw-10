@@ -111,3 +111,18 @@ p {
     transform: scale(0.8);
   }
 }
+
+/* Сховати контент при завантаженні сторінки */
+.hidden {
+  display: none;
+}
+
+/* Стилі для лоадера */
+.loader {
+  display: block;
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  background-color: #f3f3f3;
+  border: 1px solid #ddd;
+}
