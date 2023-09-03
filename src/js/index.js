@@ -130,4 +130,3 @@ function onSelectBreed(breed) {
     })
     .catch(error => onError(error));
 }
-
